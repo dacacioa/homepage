@@ -1,2 +1,2 @@
-# homepage
-My homepage source code
+# Homepage
+Homepage bases in bootstrap standard template.
