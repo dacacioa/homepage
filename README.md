@@ -1,2 +1,2 @@
 # Homepage
-Homepage bases in bootstrap standard template.
+Homepage based in bootstrap standard template.
