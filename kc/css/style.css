@@ -1,0 +1,70 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #EEEEEE;
+}
+
+body {
+  transform: rotate(-1deg);
+  background: white;
+  max-width: 550px;
+  margin: auto;
+  margin-top: 75px;
+  padding: 35px 20px;
+  position: relative;
+  width: 80%;
+  box-shadow: 0 1px 7px hsla(0, 0%, 0%, 0.2);
+
+}
+
+body:after,
+body:before {
+  background: #f8f8f8;
+  content: '';
+  height: 50px;
+  position: absolute;
+  top: -25px;
+  width: 100px;
+  box-shadow: 0 5px 10px -7px hsla(0, 0% ,0%, 0.5);
+}
+
+body:after {
+  left: -50px;
+  transform: rotate(-45deg);
+}
+
+body:before {
+  right: -50px;
+  transform: rotate(45deg);
+}
+
+.flipdown {
+  margin: auto;
+  width: 90%;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.banner {
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 5em;
+  font-weight: bold;
+}
+
+.banner span {
+  clear: both;
+  display: block;
+  margin: -6px;
+}
+
+.little {
+  font-size: 0.4em;
+}
+
+.here {
+}
+
+.away {
+  display: none;
+}
