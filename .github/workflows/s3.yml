@@ -21,6 +21,7 @@ jobs:
         #SOURCE_DIR:       # optional: defaults to entire repository
         
   invalidate_cache:
+    needs: deploy
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
